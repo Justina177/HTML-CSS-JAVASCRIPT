@@ -116,6 +116,12 @@ img {
     z-index: 11;
 }
 
+/* Change navbar styles on scroll using javascript */
+
+.window-scroll {
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
 .nav__container {
     height: 100%;
     display: flex;
@@ -135,7 +141,7 @@ nav button {
 
 .nav__menu a {
     font-size: 0.9rem;
-    transition: all 400ms linear;
+    transition: all 400ms ease;
 }
 
 .nav__menu a:hover {
@@ -203,7 +209,7 @@ header {
 }
 
 .category:hover {
-    box-shadow: 0 3rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
 
